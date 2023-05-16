@@ -59,15 +59,60 @@ h1{
     color:white;
 }
 .support{
+    text-align: center;
     color:white;
     background: #3882F6;
-    padding: 2px 5px;
-    border-radius: 50px;
-    width:100px;
+    padding: 10px;
+    border-radius: 8px;
+    width:110px;
+    border:none;
 }
 .description{
     font-size: 18px;
     color:#E5E7EB;
     width:200px;
-    margin-top: ;
+}
+.face{
+    border:solid;
+    border-radius: 8px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+.list{
+    text-align: center;
+    font-size:36px;
+}
+.chunk{
+    text-align: center;
+    min-width:300px;
+    max-width:300px;
+    font-size:20px
+}
+.quote-block{
+    background: #E5E7EB;
+    min-height:300px;
+    max-height:350px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    gap:12px;
+
+}
+.quote{
+    font-size: 26px;
+    text-align: center;
+    margin:0;
+    
+}
+.goat{
+    text-align: center;
+    margin:0;
+    padding-left:250px;
+    font-size:18px;
+}
+.resident-section{
+    border:black;
 }
