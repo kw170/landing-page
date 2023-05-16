@@ -54,6 +54,7 @@ body{
     justify-content: space-evenly;
     align-items: center;
     max-width: 1100px;
+    gap:50px;
 }
 h1{
     color:white;
@@ -159,4 +160,11 @@ h1{
 }
 .sign-up:hover{
     background: #2c62b9;
+}
+.title-cards, .logo{
+    text-decoration:none;
+    color:white;
+}
+.title-cards:hover{
+    text-decoration: underline;
 }
