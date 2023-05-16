@@ -59,7 +59,6 @@ h1{
     color:white;
 }
 .support{
-    text-align: center;
     color:white;
     background: #3882F6;
     padding: 10px;
@@ -113,6 +112,45 @@ h1{
     padding-left:250px;
     font-size:18px;
 }
-.resident-section{
-    border:black;
+.bottom-section{
+    display:flex;
+    background: #3882F6;
+    border-radius: 10px;
+    margin:70px 125px;
+    justify-content: space-around;
+    text-align: center;
+    padding:70px 70px; 
+}
+.sentences{
+    display: flex;
+    flex-direction: column;
+    padding:0;
+    justify-self: center;
+    align-items: center;
+    gap:10px;
+}
+.sign-up{
+    height:30px;
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-right:50px;
+    padding:8px 10px 24px 10px;
+    border-radius: 8px;
+    background: #3882F6;
+    color:white;
+    border-color: white;
+    font-size: 16px;
+    min-width: 90px;
+}
+.tea{
+    color: #E5E7EB;
+    margin:0;
+}
+.news{
+    margin:0;
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    flex:1 1 0;
 }
