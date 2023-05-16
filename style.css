@@ -116,7 +116,7 @@ h1{
     display:flex;
     background: #3882F6;
     border-radius: 10px;
-    margin:70px 125px;
+    margin:80px 150px;
     justify-content: space-around;
     text-align: center;
     padding:70px 70px; 
@@ -153,4 +153,10 @@ h1{
     flex-wrap: wrap;
     font-weight: bold;
     flex:1 1 0;
+}
+.support:hover{
+    background: #275aac;
+}
+.sign-up:hover{
+    background: #2c62b9;
 }
